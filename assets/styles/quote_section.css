@@ -1,0 +1,37 @@
+.quote_section {
+    background-color: #F8F8F8;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.quote_section_wrapper {
+    display: flex;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quote_section_wrapper img {
+    padding: 30px;
+    border: 2px solid #C6ECE5;
+    margin: 80px 0;
+}
+
+.quote_section_quote {
+    color: rgba(0, 0, 0, 0.445);
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    margin: 80px 40px 100px;
+}
+
+.quote_section_quote:after {
+    content: "Jon Doe";
+    display: block;
+    color: black;
+    font-family: Mr Dafoe;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+

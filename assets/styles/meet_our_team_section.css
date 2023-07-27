@@ -1,0 +1,161 @@
+.meet_our_team_section {
+    margin-top: 80px;
+} 
+
+.who_we_are {
+    font-family: Mr Dafoe;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.meet_our_team_title {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: Alfa Slab;
+    color: black;
+}
+
+.meet_our_team_text {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.726);
+    text-align: center;
+    width: 1000px;
+    margin: 80px auto;
+}
+
+.meet_our_team_flexed_wrapper {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.meet_our_team_img_1,
+.meet_our_team_img_2,
+.meet_our_team_img_3 {
+    width: 360px;
+    height: 470px;
+    transition: 180ms;
+}
+
+.meet_our_team_img_1 {
+    background-image: url(../images/meet_our_team_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px 0;
+    margin-right: 20px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.meet_our_team_img_2 {
+    background-image: url(../images/meet_our_team_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px 0;
+    position: relative;
+    flex-grow: 1;
+}
+
+.meet_our_team_img_3 {
+    background-image: url(../images/meet_our_team_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px 0;
+    margin-left: 20px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.meet_our_team_img_1:hover:after,
+.meet_our_team_img_2:hover:after,
+.meet_our_team_img_3:hover:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(#EF8A8A, #F2E391);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 180ms;
+}
+
+.meet_our_team_img_1:hover,
+.meet_our_team_img_2:hover,
+.meet_our_team_img_3:hover {
+    transform: translate(-10px, -10px);
+    transition: 180ms ease-in-out;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 3px #95E1D3;;
+}
+
+.mot_hidden_icons {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    font-size: 30px;
+    display: none;
+    transition: 180ms;
+}
+
+.meet_our_team_img_1:hover .mot_hidden_icons,
+.meet_our_team_img_2:hover .mot_hidden_icons,
+.meet_our_team_img_3:hover .mot_hidden_icons {
+    display: flex;
+    z-index: 2;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-pinterest2, 
+.icon-instagram {
+    color: #F38181;
+    background-color: #FBE389;
+    display: inline-block;
+    padding: 13px;
+    border: 0.1px solid #F38181;
+}
+
+.icon-facebook:hover,
+.icon-twitter:hover,
+.icon-pinterest2:hover, 
+.icon-instagram:hover {
+    background-color: #F38181;
+    color: white;
+    transition: 180ms;
+}
+
+.mot_names_wrapper {
+    display: flex;
+    color: black;
+    margin: 20px auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.mot_name {
+    flex-grow: 1;
+    width: 360px;
+}
+
+.mot_names_wrapper h6 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.mot_names_wrapper p {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.582);
+    margin-top: 10px;
+    text-align: center;
+}

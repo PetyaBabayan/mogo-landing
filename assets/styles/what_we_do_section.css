@@ -1,0 +1,106 @@
+.what_we_do_section {
+    color: black;
+}
+
+.service {
+    font-family: Mr Dafoe;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 140px;
+    color: black;
+}
+
+.what_we_do_2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: Alfa Slab;
+    position: relative;
+} 
+
+.what_we_do_text {
+    font-size: 20px;
+    text-align: center;
+    width: 1000px;
+    margin: 80px auto;
+    color: rgba(0, 0, 0, 0.668);
+}
+
+.what_we_do_flexed_wrapper {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.wwd_right_side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.wwd_photography,
+.wwd_creativity,
+.wwd_webDesign {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 390px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    position: relative;
+    cursor: pointer;
+}
+
+.wwd_creativity,
+.wwd_webDesign {
+    margin-top: 10px;
+}
+
+.wwd_photography:before {
+    content: url(../images/what_we_do_1.svg);
+    margin-right: 10px;
+}
+
+.wwd_creativity:before {
+    content: url(../images/what_we_do_2.svg);
+    margin-right: 10px;
+}
+
+.wwd_webDesign:before {
+    content: url(../images/what_we_do_3.svg);
+    margin-right: 10px;
+}
+
+.wwd_photography:after,
+.wwd_creativity:after,
+.wwd_webDesign:after {
+    content: url(../images/ARROW\ _\ DOWN.svg);
+    position: absolute;
+    right: 12px;
+    transition: 180ms;
+}
+
+.wwd_photography:hover:after,
+.wwd_creativity:hover:after,
+.wwd_webDesign:hover:after {
+    cursor: pointer;
+    transform: rotate(180deg);
+    transition: 180ms;
+}
+
+.wwd_display_none_block {
+    display: none;
+    height: 100%;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.685);
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding: 10px 10px;
+    overflow-y: auto;
+}
+
+.wwd_display_none_block:first-of-type {
+    display: block;
+    overflow-y: auto;
+}

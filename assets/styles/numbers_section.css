@@ -1,0 +1,33 @@
+.numbers_section_wrapper {
+    background-color: #95E1D3;
+}
+
+.numbers_section_flexbox {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* border-left: 1px solid white;
+    border-right: 1px solid white; */
+}
+
+.numbers_section_flexbox div p {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.numbers_section_block span {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+
+.numbers_section_block {
+    flex-grow: 1;
+    text-align: center;
+    max-width: calc(1200/5);
+}
+
+.numbers_section_block p {
+    margin-top: 80px;
+}

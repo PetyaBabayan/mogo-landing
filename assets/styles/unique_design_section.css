@@ -1,0 +1,56 @@
+.unique_design_section {
+    background-image: url(../images/unique_design_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    position: relative;
+    z-index: 0;
+}
+
+.unique_design_section::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-color: white;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.for_all_devices {
+    font-family: Mr Dafoe;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+} 
+
+.unique_design_title {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: Alfa Slab;
+}
+
+.unique_design_positioning_wrapper {
+    width: 1200px;
+    height: 570px;
+    position: relative;
+    margin: 80px auto;
+}
+
+#ipad {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+#iphone {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
